@@ -1,0 +1,25 @@
+{
+  "name": "escriu",
+  "productName": "Escriu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icons/icon.icns"
+    }
+  },
+  "keywords": [],
+  "author": "Genís Bosch",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.3.0",
+    "electron-builder": "^26.8.1"
+  }
+}

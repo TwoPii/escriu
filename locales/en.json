@@ -1,0 +1,55 @@
+{
+  "menu": {
+    "app": {
+      "about": "About Escriu",
+      "aboutMessage": "Escriu is a lightweight markdown notepad created by {creator}.",
+      "quit": "Quit Escriu"
+    },
+    "file": {
+      "label": "File",
+      "open": "Open",
+      "save": "Save",
+      "saveAs": "Save As"
+    },
+    "edit": {
+      "label": "Edit",
+      "undo": "Undo",
+      "redo": "Redo",
+      "selectAll": "Select All",
+      "cut": "Cut",
+      "copy": "Copy",
+      "paste": "Paste"
+    },
+    "language": {
+      "label": "Language",
+      "english": "English",
+      "catalan": "Catalan"
+    }
+  },
+  "ui": {
+    "normal": "Normal",
+    "header1": "Header 1",
+    "header2": "Header 2",
+    "header3": "Header 3",
+    "header4": "Header 4",
+    "header5": "Header 5",
+    "header6": "Header 6",
+    "words": "words",
+    "chars": "chars",
+    "read": "read",
+    "sec": "sec",
+    "min": "min"
+  },
+  "dialogs": {
+    "open": {
+      "title": "Open File",
+      "markdownFiles": "Markdown Files",
+      "textFiles": "Text Files"
+    },
+    "save": {
+      "title": "Save File",
+      "markdownFiles": "Markdown Files",
+      "textFiles": "Text Files"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "menu": {
+    "app": {
+      "about": "Sobre Escriu",
+      "aboutMessage": "Escriu és un bloc de notes Markdown lleuger creat per {creator}.",
+      "quit": "Sortir d'Escriu"
+    },
+    "file": {
+      "label": "Fitxer",
+      "open": "Obrir",
+      "save": "Desar",
+      "saveAs": "Desar com"
+    },
+    "edit": {
+      "label": "Editar",
+      "undo": "Desfer",
+      "redo": "Refer",
+      "selectAll": "Seleccionar tot",
+      "cut": "Retallar",
+      "copy": "Copiar",
+      "paste": "Enganxar"
+    },
+    "language": {
+      "label": "Idioma",
+      "english": "Anglès",
+      "catalan": "Català"
+    }
+  },
+  "ui": {
+    "normal": "Normal",
+    "header1": "Títol 1",
+    "header2": "Títol 2",
+    "header3": "Títol 3",
+    "header4": "Títol 4",
+    "header5": "Títol 5",
+    "header6": "Títol 6",
+    "words": "paraules",
+    "chars": "caràcters",
+    "read": "de lectura",
+    "sec": "seg",
+    "min": "min"
+  },
+  "dialogs": {
+    "open": {
+      "title": "Obrir fitxer",
+      "markdownFiles": "Fitxers Markdown",
+      "textFiles": "Fitxers de text"
+    },
+    "save": {
+      "title": "Desar fitxer",
+      "markdownFiles": "Fitxers Markdown",
+      "textFiles": "Fitxers de text"
+    }
+  }
+}

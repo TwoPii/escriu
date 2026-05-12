@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Escriu</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="style-controls" class="style-controls">
+      <button id="bold-btn" class="style-btn">B</button>
+      <button id="italic-btn" class="style-btn">I</button>
+      <button id="underline-btn" class="style-btn">U</button>
+      <select id="header-select" class="style-select">
+        <option value="" data-i18n="normal">Normal</option>
+        <option value="1" data-i18n="header1">Header 1</option>
+        <option value="2" data-i18n="header2">Header 2</option>
+        <option value="3" data-i18n="header3">Header 3</option>
+        <option value="4" data-i18n="header4">Header 4</option>
+        <option value="5" data-i18n="header5">Header 5</option>
+        <option value="6" data-i18n="header6">Header 6</option>
+      </select>
+    </div>
+    <div
+      id="editor"
+      contenteditable="true"
+      spellcheck="false"
+      class="editor"
+    ></div>
+    <div id="bottom-bar" class="bottom-bar">
+      <div id="word-count" class="word-count">0 words</div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
