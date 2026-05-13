@@ -9,8 +9,21 @@
     "build": "electron-builder"
   },
   "build": {
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "build/icons/icon.png"
+    },
     "mac": {
       "target": "dmg",
+      "icon": "build/icons/icon.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
       "icon": "build/icons/icon.icns"
     }
   },
